@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/Suara"
+    android:title="@string/suara"
+    android:icon="@drawable/suara"
+    />
+    <item
+        android:id="@+id/Tempo"
+        android:title="@string/tempo"
+        android:icon="@drawable/tempo"
+        />
+    <item
+        android:id="@+id/Sindonews"
+        android:title="@string/sindonews"
+        android:icon="@drawable/sindo"
+        />
+</menu>

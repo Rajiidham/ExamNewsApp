@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/suaraFragment">
+
+    <fragment
+        android:id="@+id/suaraFragment"
+        android:name="com.example.examnews.SuaraFragment"
+        android:label="fragment_suara"
+        tools:layout="@layout/fragment_suara" />
+    <fragment
+        android:id="@+id/sindonewsFragment"
+        android:name="com.example.examnews.SindonewsFragment"
+        android:label="fragment_sindonews"
+        tools:layout="@layout/fragment_sindonews" />
+    <fragment
+        android:id="@+id/tempoFragment"
+        android:name="com.example.examnews.TempoFragment"
+        android:label="fragment_tempo"
+        tools:layout="@layout/fragment_tempo" />
+</navigation>
